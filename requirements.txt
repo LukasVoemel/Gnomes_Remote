@@ -1,0 +1,3 @@
+dragg
+dragg-comp
+redis

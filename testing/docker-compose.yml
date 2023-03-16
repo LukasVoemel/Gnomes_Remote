@@ -1,0 +1,6 @@
+version: '3'
+services:
+  dragg:
+    build:
+      context: ../
+      dockerfile: ./testing/Dockerfile

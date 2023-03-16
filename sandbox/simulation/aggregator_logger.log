@@ -1,0 +1,24 @@
+2023-03-14 14:26:48,745 - aggregator - INFO - Set the version write out to marl_test
+2023-03-14 14:26:48,746 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-03-14 14:26:49,001 - aggregator - INFO - Made it to Aggregator Run
+2023-03-14 14:26:49,006 - aggregator - INFO - Flushing Redis
+2023-03-14 14:26:55,743 - aggregator - INFO - Homes looking ok!
+2023-03-14 14:26:55,751 - aggregator - INFO - Starting aioredis listener...
+2023-03-14 14:26:56,213 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-03-14 14:26:56,368 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-03-14 14:26:56,524 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-03-14 14:26:56,680 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-03-14 14:26:56,836 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-03-14 14:26:56,991 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-03-14 14:26:57,148 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-03-14 14:26:57,302 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-03-14 14:26:57,458 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-03-14 14:26:57,862 - aggregator - INFO - Player 1/1 updated demand at t=1.
+2023-03-14 14:27:00,317 - aggregator - INFO - At time t=0 aggregate load is 2.37 kW.
+2023-03-14 14:27:00,519 - aggregator - INFO - Player 1/1 updated demand at t=2.
+2023-03-14 14:27:02,078 - aggregator - INFO - At time t=1 aggregate load is 2.37 kW.
+2023-03-14 14:27:02,281 - aggregator - INFO - Player 1/1 updated demand at t=3.
+2023-03-14 14:27:03,856 - aggregator - INFO - At time t=2 aggregate load is 1.54 kW.
+2023-03-14 14:27:04,058 - aggregator - INFO - Player 1/1 updated demand at t=4.
+2023-03-14 14:27:05,636 - aggregator - INFO - At time t=3 aggregate load is 1.54 kW.
+2023-03-14 14:27:05,839 - aggregator - INFO - Horizon: 1; Num Hours Simulated: 2; Run time: 16.838411 seconds

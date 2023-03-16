@@ -1,0 +1,11 @@
+2023-03-14 14:26:55,757 - player - INFO - Welcome PLAYER
+2023-03-14 14:26:55,909 - player - INFO - PLAYER initialized player at t = 0.
+2023-03-14 14:26:57,458 - player - INFO - Resetting the player's environment.
+2023-03-14 14:26:57,460 - player - INFO - PLAYER reset at t = 0.
+2023-03-14 14:26:57,642 - player - INFO - Resetting the player's environment.
+2023-03-14 14:26:57,643 - player - INFO - PLAYER reset at t = 0.
+2023-03-14 14:26:57,832 - player - INFO - PLAYER updated at t = 1.
+2023-03-14 14:27:00,502 - player - INFO - PLAYER updated at t = 2.
+2023-03-14 14:27:02,118 - player - INFO - PLAYER updated at t = 3.
+2023-03-14 14:27:03,895 - player - INFO - PLAYER updated at t = 4.
+2023-03-14 14:27:05,635 - player - INFO - PLAYER done at t = 4.
