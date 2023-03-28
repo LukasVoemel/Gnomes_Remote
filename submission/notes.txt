@@ -1,0 +1,188 @@
+
+
+"""
+must define state space: temp inside of the home
+                            time of day 
+                            state of electric vehicle 
+                            previous hvac set points 
+
+
+must define action space:
+                            what is it going to do  
+
+"""
+
+"""
+Simple rule-based prediction function as a template
+
+Parameters
+----------
+home : dragg_comp.player.PlayerHome
+
+    PlayerHome object 
+    Your home
+
+
+    
+    PlayerHome is from DRAGG which is probably what this gets graded with
+
+        OAT: outdoor air temperature 
+        GHI: solar irradiance 
+
+        uncontrollable hot water use will impact indoor air temperature and hot water tank temp 
+
+        electric vehicle will be used thtough out the day 
+
+        representatin of DRAGG controls each of these resouces and ensures the hosue is comertable to the gratest degree possible 
+                                                                        That is the mission statemnet 
+
+
+        “t_in”, current indoor temperature (deg C)
+        “t_wh”, current temperature of the hot water tank (deg C)
+        “t_out”, current indoor temperature (deg C)
+        “t_out_6hr”, predicted outdoor temperature in 6 hrs (deg C)
+        “t_out_12hr”, predicted outdoor temperature in 12 hrs (deg C)
+        “ghi”, current outdoor humidity (%)
+        “ghi_6hr”, predicted outdoor humidity in 6 hrs (%)
+        “ghi_12hr”, predicted outdoor humidity in 12 hrs (%)
+        “time_of_day”, time of day (0-24)
+        “day_of_week”, day of week (0-6)
+        “occupancy”, true/false value for occupancy status
+        “my_demand”, current net electric consumption (kW)
+
+
+Returns
+-------
+list
+    List of actions corresponding to hvac, wh, and electric vehicle
+"""
+
+"""
+Notes: 
+------
+    at each time stamp t, agent is at certian state s_t, and chooses action a_t to perform 
+    run selected action and returns reward to the agent 
+
+    Goal: the goal of the agent is to max the total rewards to get from env. 
+    This funtion is called the expected discounted return function 
+
+    agent needs to find optional policy which is probabiliy distriubtion of a given state over actions
+
+
+    Q-learning algorithm 
+        goal is to learn iterativley the optinal Q-value function using Bellman OPtimality Equation
+        Store all Q-values in table that we update at each timestep using the Q-learning iteration: 
+"""
+
+
+"""
+    This is where the actual policy is 
+    returns the predicted actions for next time step 
+    action is the actual action choosen by the reinforcement learnign agent at current time stamp 
+
+    policy: state -> action
+
+
+    we can use a given policy from stablebaselines for an examle 
+
+
+
+    traing time is heavily influenced on reward
+        if you give reward for almost you can train faster 
+
+    terminal conditions: 
+        determine when to reset the enviorment 
+"""
+
+
+
+"""
+    State is the the current state and the 
+    The action is the action which it wants to perform 
+        calculate reward based on the action given the state 
+
+
+        reward should be calulated given energy usage and cost. 
+
+"""
+
+
+"""
+    three entries long 
+    [-1,1]
+
+    HVAC: [-1,1] = [lowest possible value, highest possible value]
+    Water heater: [-1,1] = [water heater off, water on]
+        intermediate values will correspond to being on part of the time
+        (0) avg power consumption of 50% over 15 min interval
+    EV: charge is interpolated between max possible charge and max possible dichagre 
+
+    we take in predict(home) as an array of [-1, 1]
+    that is the next action to be predicted
+
+    calualcte reward from current state to next state from the given action
+"""
+
+
+
+
+
+
+-----------------------------------
+
+test 
+# def reward_function(state, action):
+
+
+    
+#     #get the new prediction based on return(next state)
+
+#     #action should come from predict output (this should not be called in the function)
+#             #This gets passed in as a paramet (3 normalized values) in the aciton paramter
+
+#     #state is the state we are currently in, which should come home.cpp ?????????????
+#         #this might be something which we can not see, however the output format should be known 
+
+
+    
+    
+
+#     #current state now 
+#     hvac_currentState = state[0] #hvac
+#     water_currentState = state[1] #water
+#     ev_currentState = state[2] #ev
+
+#     #the action to be taken 
+#     hvac_action = action[0] #hvac
+#     water_action = action[1] #water
+#     ev_action = action[2] #ev
+
+#     #the state after the action
+#     #these values are coming in normalized and this must be accounted for
+#     hvac_newState, water_newState, ev_newState = predict(home)
+
+
+#     #set setpoints for the optimal goal
+#     #not yet adjusted to the normalized values
+#     min_hvacTemp = 60
+#     max_hvacTemp = 80
+
+
+#     hvac_reward = 0
+#     #try to adjust reward based on how much in the middle the hvac is
+#     if min_hvacTemp <= hvac_newState <= max_hvacTemp:
+#         hvac_reward = (hvac_newState - hvac_currentState) / (max_hvacTemp- min_hvacTemp)
+
+
+#     min_waterTemp = 60 #X
+#     max_waterTemp = 120 #Y
+    
+#     water_reward = 0
+#     if min_waterTemp <= water_newState <= max_waterTemp:
+#         water_reward = (water_newState - water_currentState)
+
+
+#     #missing implemetnation of ev
+#     reward = hvac_reward + water_reward
+
+#     return reward

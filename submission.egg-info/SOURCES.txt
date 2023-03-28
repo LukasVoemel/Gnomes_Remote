@@ -2,6 +2,7 @@ LICENSE
 README.md
 setup.py
 ./submission/__init__.py
+./submission/rl_training.py
 ./submission/submission.py
 submission.egg-info/PKG-INFO
 submission.egg-info/SOURCES.txt

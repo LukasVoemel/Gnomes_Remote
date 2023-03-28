@@ -1128,7 +1128,7 @@
         "start_datetime": "2015-01-01 00",
         "end_datetime": "2015-01-01 02",
         "num_timesteps": 4,
-        "solve_time": 16.838411,
+        "solve_time": 17.512438,
         "horizon": 1,
         "num_homes": 10,
         "p_max_aggregate": 2.369169510807736,

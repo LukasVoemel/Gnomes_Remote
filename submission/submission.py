@@ -1,138 +1,77 @@
 
 
-#------------------------------------PREDICT----------------------------------------------------
+
+def reward(home):
+    """
+    Reward function
+    :input: PlayerHome object
+    :output: float
+    """
+    print(home.obs_dict)
+    reward = home.obs_dict['my_demand'] / 3.5
+    return reward
+
+def normalization(home):
+    """
+    A function that returns the normalized list of observations
+    :input: PlayerHome object
+    :output: list of floats (any length)
+    """
+    normalized_obs = []
+    for name, value in sorted(home.obs_dict.items()):
+        if "t_out" in name:
+            norm_value = norm_helper(value, np.max(home.home.all_oat), np.min(home.home.all_oat))
+        elif "t_in" in name:
+            norm_value = norm_helper(value, 22, 18)
+        elif "time_of_day" in name:
+            norm_value = norm_helper(value, 24, 0)
+        elif "ghi" in name:
+            norm_value = norm_helper(value, np.max(home.home.all_ghi), 0)
+        else:
+            norm_value = value
+        normalized_obs += [norm_value]
+    return normalized_obs
+   
+
 def predict(home):
+  
     """
     Simple rule-based prediction function as a template
-
     Parameters
     ----------
     home : dragg_comp.player.PlayerHome
         Your home
-
     Returns
     -------
     list
         List of actions corresponding to hvac, wh, and electric vehicle
     """
 
-    """
-    Notes: 
-    ------
-        at each time stamp t, agent is at certian state s_t, and chooses action a_t to perform 
-        run selected action and returns reward to the agent 
-
-        Goal: the goal of the agent is to max the total rewards to get from env. 
-        This funtion is called the expected discounted return function 
-
-        agent needs to find optional policy which is probabiliy distriubtion of a given state over actions
-
-
-        Q-learning algorithm 
-            goal is to learn iterativley the optinal Q-value function using Bellman OPtimality Equation
-            Store all Q-values in table that we update at each timestep using the Q-learning iteration: 
-    """
-
-
-    """
-        This is where the actual policy is 
-        returns the predicted actions for next time step 
-        action is the actual action choosen by the reinforcement learnign agent at current time stamp 
-
-        policy: state -> action
-
-
-
-        traing time is heavily influenced on reward
-            if you give reward for almost you can train faster 
-
-        terminal conditions: 
-            determine when to reset the enviorment 
-    """
-
+    
     hvac_action = 0  # no action
     wh_action = 0  # no action
     ev_action = 0  # no action
     action = [hvac_action, wh_action, ev_action]
 
+     # adjust hvac setpoints
+    if home.obs_dict["time_of_day"] >= 6 and home.obs_dict["time_of_day"] < 8:
+        hvac_action = 20  # set HVAC setpoint to 20°C during morning peak
+    elif home.obs_dict["time_of_day"] >= 16 and home.obs_dict["time_of_day"] < 18:
+        hvac_action = 25  # set HVAC setpoint to 25°C during afternoon peak
+
+    # cycle water heater based on current temperature
+    if home.obs_dict["t_wh"] < 50:
+        wh_action = 1  # turn on water heater if temperature is too low
+    elif home.obs_dict["t_wh"] > 60:
+        wh_action = -1  # turn off water heater if temperature is too high
+
+    # charge electric vehicle during off-peak hours
+    if home.obs_dict["time_of_day"] >= 22 or home.obs_dict["time_of_day"] < 6:
+        ev_action = 1  # charge electric vehicle during off-peak hours
+
+    action = [hvac_action, wh_action, ev_action]
+
+
+
+    #action should be iterable 
     return action
-
-
-#-------------------------------------------------------REWARD FUNCTION-----------------------------------
-
-def reward_function(state, action):
-
-
-    """
-        three entries long 
-        [-1,1]
-
-        HVAC: [-1,1] = [lowest possible value, highest possible value]
-        Water heater: [-1,1] = [water heater off, water on]
-            intermediate values will correspond to being on part of the time
-            (0) avg power consumption of 50% over 15 min interval
-        EV: charge is interpolated between max possible charge and max possible dichagre 
-
-        we take in predict(home) as an array of [-1, 1]
-        that is the next action to be predicted
-
-        calualcte reward from current state to next state from the given action
-    """
-
-    #get the new prediction based on return (next state)
-    
-
-    #current state now 
-    hvac_currentState = state[0] #hvac
-    water_currentState = state[1] #water
-    ev_currentState = state[2] #ev
-
-    #the action to be taken 
-    hvac_action = action[0] #hvac
-    water_action = action[1] #water
-    ev_action = action[2] #ev
-
-    #the state after the action
-    #these values are coming in normalized and this must be accounted for
-    hvac_newState, water_newState, ev_newState = predict(home)
-
-
-    #set setpoints for the optimal goal
-    #not yet adjusted to the normalized values
-    min_hvacTemp = 60
-    max_hvacTemp = 80
-
-
-    hvac_reward = 0
-    #try to adjust reward based on how much in the middle the hvac is
-    if min_hvacTemp <= hvac_newState <= max_hvacTemp:
-        hvac_reward = (hvac_newState - hvac_currentState) / (max_hvacTemp- min_hvacTemp)
-
-
-    min_waterTemp = 60 #X
-    max_waterTemp = 120 #Y
-    
-    water_reward = 0
-    if min_waterTemp <= water_newState <= max_waterTemp:
-        water_reward = (water_newState - water_currentState)
-
-
-    #missing implemetnation of ev
-
-
-    
-    reward = hvac_reward + water_reward
-
-    return reward
-
-
-
-predict(home)
-
-
-
-
-
-
-
-
