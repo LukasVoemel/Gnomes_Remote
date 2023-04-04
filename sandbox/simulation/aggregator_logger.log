@@ -520,3 +520,335 @@
 2023-03-27 23:39:50,498 - aggregator - INFO - Player 1/1 updated demand at t=4.
 2023-03-27 23:39:52,043 - aggregator - INFO - At time t=3 aggregate load is 1.54 kW.
 2023-03-27 23:39:52,245 - aggregator - INFO - Horizon: 1; Num Hours Simulated: 2; Run time: 17.512438 seconds
+2023-04-01 22:01:39,095 - aggregator - INFO - Set the version write out to marl_test
+2023-04-01 22:01:39,097 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-01 22:01:39,359 - aggregator - INFO - Made it to Aggregator Run
+2023-04-01 22:01:39,376 - aggregator - INFO - Flushing Redis
+2023-04-01 22:01:46,186 - aggregator - INFO - Homes looking ok!
+2023-04-01 22:01:46,196 - aggregator - INFO - Starting aioredis listener...
+2023-04-01 22:01:46,686 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-01 22:01:46,873 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-01 22:01:47,061 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-01 22:01:47,248 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-01 22:01:47,437 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-01 22:01:47,624 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-01 22:01:47,810 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-01 22:01:47,999 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-01 22:01:48,188 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-03 22:16:18,305 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:16:18,306 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-03 22:18:02,307 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:18:02,307 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-03 22:20:59,338 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:20:59,339 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-03 22:21:36,387 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:21:36,388 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-03 22:31:45,857 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:31:45,858 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-03 22:33:47,333 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:33:47,333 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-03 22:37:57,859 - aggregator - INFO - Set the version write out to marl_test
+2023-04-03 22:37:57,860 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 11:41:00,344 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 11:41:00,345 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 11:41:00,617 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 11:41:00,639 - aggregator - INFO - Flushing Redis
+2023-04-04 11:41:05,069 - aggregator - INFO - Homes looking ok!
+2023-04-04 11:41:05,078 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 11:41:05,496 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 11:41:05,606 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 11:41:05,717 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 11:41:05,826 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 11:41:05,933 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 11:41:06,042 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 11:41:06,151 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 11:41:06,260 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 11:41:06,369 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 11:43:49,023 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 11:43:49,023 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 11:43:49,187 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 11:43:49,198 - aggregator - INFO - Flushing Redis
+2023-04-04 11:43:53,750 - aggregator - INFO - Homes looking ok!
+2023-04-04 11:43:53,759 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 11:43:54,177 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 11:43:54,288 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 11:43:54,399 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 11:43:54,499 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 11:43:54,595 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 11:43:54,704 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 11:43:54,815 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 11:43:54,925 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 11:43:55,033 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 11:49:52,251 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 11:49:52,251 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 11:49:52,479 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 11:49:52,487 - aggregator - INFO - Flushing Redis
+2023-04-04 11:49:57,109 - aggregator - INFO - Homes looking ok!
+2023-04-04 11:49:57,117 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 11:49:57,535 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 11:49:57,642 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 11:49:57,751 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 11:49:57,860 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 11:49:57,969 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 11:49:58,080 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 11:49:58,190 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 11:49:58,301 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 11:49:58,409 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 12:34:52,873 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 12:34:52,873 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 12:34:52,998 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 12:34:53,009 - aggregator - INFO - Flushing Redis
+2023-04-04 12:34:57,541 - aggregator - INFO - Homes looking ok!
+2023-04-04 12:34:57,549 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 12:34:57,967 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 12:34:58,075 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 12:34:58,182 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 12:34:58,292 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 12:34:58,401 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 12:34:58,509 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 12:34:58,618 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 12:34:58,729 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 12:34:58,840 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 13:09:34,748 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 13:09:34,749 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 13:09:35,002 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 13:09:35,010 - aggregator - INFO - Flushing Redis
+2023-04-04 13:09:39,464 - aggregator - INFO - Homes looking ok!
+2023-04-04 13:09:39,474 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 13:09:39,893 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 13:09:40,006 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 13:09:40,113 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 13:09:40,224 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 13:09:40,333 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 13:09:40,441 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 13:09:40,550 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 13:09:40,663 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 13:09:40,774 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 13:11:33,193 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 13:11:33,194 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 13:11:33,313 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 13:11:33,324 - aggregator - INFO - Flushing Redis
+2023-04-04 13:11:37,910 - aggregator - INFO - Homes looking ok!
+2023-04-04 13:11:37,919 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 13:11:38,336 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 13:11:38,442 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 13:11:38,551 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 13:11:38,661 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 13:11:38,768 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 13:11:38,877 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 13:11:38,987 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 13:11:39,096 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 13:11:39,204 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 13:14:03,048 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 13:14:03,048 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 13:14:03,178 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 13:14:03,187 - aggregator - INFO - Flushing Redis
+2023-04-04 13:14:07,661 - aggregator - INFO - Homes looking ok!
+2023-04-04 13:14:07,670 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 13:14:08,091 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 13:14:08,200 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 13:14:08,309 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 13:14:08,417 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 13:14:08,528 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 13:14:08,637 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 13:14:08,747 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 13:14:08,849 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 13:14:08,958 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 13:20:27,583 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 13:20:27,583 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 13:20:27,709 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 13:20:27,719 - aggregator - INFO - Flushing Redis
+2023-04-04 13:20:32,241 - aggregator - INFO - Homes looking ok!
+2023-04-04 13:20:32,249 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 13:20:32,667 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 13:20:32,777 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 13:20:32,883 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 13:20:32,994 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 13:20:33,103 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 13:20:33,213 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 13:20:33,323 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 13:20:33,434 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 13:20:33,542 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 13:24:21,916 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 13:24:21,916 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 13:24:22,063 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 13:24:22,077 - aggregator - INFO - Flushing Redis
+2023-04-04 13:24:26,539 - aggregator - INFO - Homes looking ok!
+2023-04-04 13:24:26,549 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 13:24:26,969 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 13:24:27,077 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 13:24:27,189 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 13:24:27,299 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 13:24:27,412 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 13:24:27,528 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 13:24:27,640 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 13:24:27,742 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 13:24:27,855 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:19:39,309 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:19:39,309 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:19:39,414 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:19:39,426 - aggregator - INFO - Flushing Redis
+2023-04-04 15:19:44,008 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:19:44,016 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:19:44,419 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:19:44,516 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:19:44,611 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:19:44,708 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:19:44,803 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:19:44,898 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:19:44,996 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:19:45,093 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:19:45,188 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:22:33,044 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:22:33,045 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:22:33,142 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:22:33,150 - aggregator - INFO - Flushing Redis
+2023-04-04 15:22:37,656 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:22:37,664 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:22:38,072 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:22:38,170 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:22:38,264 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:22:38,365 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:22:38,462 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:22:38,561 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:22:38,659 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:22:38,760 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:22:38,859 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:24:13,481 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:24:13,482 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:24:13,580 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:24:13,588 - aggregator - INFO - Flushing Redis
+2023-04-04 15:24:18,060 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:24:18,067 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:24:18,472 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:24:18,572 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:24:18,670 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:24:18,769 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:24:18,866 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:24:18,964 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:24:19,063 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:24:19,166 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:24:19,266 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:24:19,670 - aggregator - INFO - Player 1/1 updated demand at t=1.
+2023-04-04 15:24:21,260 - aggregator - INFO - At time t=0 aggregate load is 0.83 kW.
+2023-04-04 15:24:21,463 - aggregator - INFO - Player 1/1 updated demand at t=2.
+2023-04-04 15:24:22,389 - aggregator - INFO - At time t=1 aggregate load is 0.83 kW.
+2023-04-04 15:24:22,591 - aggregator - INFO - Player 1/1 updated demand at t=3.
+2023-04-04 15:24:23,509 - aggregator - INFO - At time t=2 aggregate load is 0.0 kW.
+2023-04-04 15:24:23,711 - aggregator - INFO - Player 1/1 updated demand at t=4.
+2023-04-04 15:24:24,626 - aggregator - INFO - At time t=3 aggregate load is 0.0 kW.
+2023-04-04 15:24:24,829 - aggregator - INFO - Horizon: 1; Num Hours Simulated: 2; Run time: 11.24948 seconds
+2023-04-04 15:52:02,978 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:52:02,979 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:52:03,129 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:52:03,148 - aggregator - INFO - Flushing Redis
+2023-04-04 15:52:07,542 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:52:07,550 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:52:07,971 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:52:08,085 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:52:08,196 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:52:08,311 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:52:08,422 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:52:08,525 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:52:08,626 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:52:08,735 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:52:08,846 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:55:48,849 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:55:48,849 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:55:48,994 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:55:49,005 - aggregator - INFO - Flushing Redis
+2023-04-04 15:55:53,472 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:55:53,481 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:55:53,901 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:55:54,016 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:55:54,131 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:55:54,247 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:55:54,360 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:55:54,461 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:55:54,565 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:55:54,681 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:55:54,794 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:56:33,881 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:56:33,882 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:56:34,002 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:56:34,010 - aggregator - INFO - Flushing Redis
+2023-04-04 15:56:38,624 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:56:38,632 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:56:39,050 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:56:39,162 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:56:39,276 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:56:39,388 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:56:39,501 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:56:39,612 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:56:39,725 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:56:39,834 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:56:39,951 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 15:59:21,731 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 15:59:21,731 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 15:59:21,830 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 15:59:21,841 - aggregator - INFO - Flushing Redis
+2023-04-04 15:59:26,267 - aggregator - INFO - Homes looking ok!
+2023-04-04 15:59:26,277 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 15:59:26,697 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 15:59:26,811 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 15:59:26,924 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 15:59:27,028 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 15:59:27,128 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 15:59:27,236 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 15:59:27,350 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 15:59:27,462 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 15:59:27,573 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 16:01:49,477 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 16:01:49,478 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 16:01:49,580 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 16:01:49,592 - aggregator - INFO - Flushing Redis
+2023-04-04 16:01:54,254 - aggregator - INFO - Homes looking ok!
+2023-04-04 16:01:54,263 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 16:01:54,686 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 16:01:54,797 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 16:01:54,906 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 16:01:55,005 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 16:01:55,117 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 16:01:55,227 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 16:01:55,340 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 16:01:55,451 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 16:01:55,559 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 16:03:33,285 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 16:03:33,286 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 16:03:33,412 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 16:03:33,419 - aggregator - INFO - Flushing Redis
+2023-04-04 16:03:37,890 - aggregator - INFO - Homes looking ok!
+2023-04-04 16:03:37,898 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 16:03:38,318 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 16:03:38,431 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 16:03:38,543 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 16:03:38,655 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 16:03:38,764 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 16:03:38,878 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 16:03:38,989 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 16:03:39,096 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 16:03:39,207 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 16:07:53,945 - aggregator - INFO - Set the version write out to marl_test
+2023-04-04 16:07:53,946 - aggregator - INFO - Start: 2015-01-01T00:00:00; End: 2015-01-01T02:00:00; Number of hours: 2
+2023-04-04 16:07:54,075 - aggregator - INFO - Made it to Aggregator Run
+2023-04-04 16:07:54,085 - aggregator - INFO - Flushing Redis
+2023-04-04 16:07:58,580 - aggregator - INFO - Homes looking ok!
+2023-04-04 16:07:58,588 - aggregator - INFO - Starting aioredis listener...
+2023-04-04 16:07:59,008 - aggregator - INFO - Aggregator initialized MPC player Ryan-HPN1D
+2023-04-04 16:07:59,120 - aggregator - INFO - Aggregator initialized MPC player Katherine-U1GN4
+2023-04-04 16:07:59,235 - aggregator - INFO - Aggregator initialized MPC player Evelyn-NYYEI
+2023-04-04 16:07:59,349 - aggregator - INFO - Aggregator initialized MPC player Robin-NB089
+2023-04-04 16:07:59,462 - aggregator - INFO - Aggregator initialized MPC player Arron-5TSDV
+2023-04-04 16:07:59,570 - aggregator - INFO - Aggregator initialized MPC player Marquerite-EPELW
+2023-04-04 16:07:59,685 - aggregator - INFO - Aggregator initialized MPC player Nadine-D73XI
+2023-04-04 16:07:59,795 - aggregator - INFO - Aggregator initialized MPC player Edward-HUHS3
+2023-04-04 16:07:59,908 - aggregator - INFO - Aggregator initialized MPC player Glenda-VUXFP
+2023-04-04 16:08:00,313 - aggregator - INFO - Player 1/1 updated demand at t=1.
+2023-04-04 16:08:01,990 - aggregator - INFO - At time t=0 aggregate load is 2.37 kW.
+2023-04-04 16:08:02,192 - aggregator - INFO - Player 1/1 updated demand at t=2.
+2023-04-04 16:08:03,071 - aggregator - INFO - At time t=1 aggregate load is 6.54 kW.
+2023-04-04 16:08:03,271 - aggregator - INFO - Player 1/1 updated demand at t=3.
+2023-04-04 16:08:04,207 - aggregator - INFO - At time t=2 aggregate load is 7.37 kW.
+2023-04-04 16:08:04,409 - aggregator - INFO - Player 1/1 updated demand at t=4.
+2023-04-04 16:08:05,322 - aggregator - INFO - At time t=3 aggregate load is 6.54 kW.
+2023-04-04 16:08:05,525 - aggregator - INFO - Horizon: 1; Num Hours Simulated: 2; Run time: 11.449286 seconds

@@ -11,7 +11,8 @@ setuptools.setup(
     install_requires=[
         'dragg',
         'dragg-comp',
-        'redis',
+        'redis'
+        'tensorflow'
     ],
     package_dir={"": "."},
     packages=setuptools.find_packages(where="."),

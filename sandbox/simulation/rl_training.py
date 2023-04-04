@@ -45,10 +45,3 @@ def train(home):
     print("here 1")
     agent.save("../../submission/my_test.zip")
 
-def norm_helper(value, exp_max, exp_min):
-    """ 
-    This helper function returns a value that
-    is approximately between [-1,1] given a value,
-    the expected max and the expected min. 
-    """
-    return 2 * (value / (exp_max - exp_min)) - 1
